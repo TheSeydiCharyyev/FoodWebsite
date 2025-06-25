@@ -50,6 +50,13 @@ section nav ul li a {
 
 section nav ul li a::after {
   content: "";
-  width: 100%;
+  width: 0;
   height: 2px;
+  background: #fac031;
+  display: block;
+  transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after {
+  width: 100%;
 }
