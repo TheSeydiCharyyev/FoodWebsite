@@ -60,3 +60,7 @@ section nav ul li a::after {
 section nav ul li a:hover::after {
   width: 100%;
 }
+
+section nav ul li a:hover {
+  color: #fac031;
+}
