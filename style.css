@@ -116,10 +116,11 @@ section p {
   line-height: 22px;
 }
 
-.section .main_btn {
+section .main_btn {
   background: #fac031;
   position: relative;
   left: 123px;
   bottom: 30px;
   width: 150px;
+  cursor: pointer;
 }
