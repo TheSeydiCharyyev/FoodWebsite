@@ -124,3 +124,9 @@ section .main_btn {
   width: 150px;
   cursor: pointer;
 }
+
+section .main_btn a {
+  color: #fff;
+  margin-right: 5px;
+  text-decoration: none;
+}
