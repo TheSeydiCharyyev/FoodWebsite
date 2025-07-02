@@ -166,3 +166,21 @@ section .main_btn:hover i {
   margin-right: 15px;
   font-family: mv boli;
 }
+
+.about .about_main .about_text h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 50px;
+}
+
+.about .about_main .about_text h3 {
+  font-size: 30px;
+  margin: 0 0 50px 0;
+}
+
+.about .about_main .about_text p {
+  width: 650px;
+  text-align: justify;
+  margin-right: 30px;
+  line-height: 22px;
+}
