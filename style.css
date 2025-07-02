@@ -162,4 +162,7 @@ section .main_btn:hover i {
 }
 
 .about .about_main .about_text h1 span {
+  color: #fac031;
+  margin-right: 15px;
+  font-family: mv boli;
 }
