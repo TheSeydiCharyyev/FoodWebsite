@@ -225,3 +225,20 @@ section .main_btn:hover i {
   position: relative;
   bottom: 15px;
 }
+
+.menu .menu_box {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.menu .menu_box .menu_card {
+  width: 325px;
+  height: 480px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu .menu_box .menu_card .menu_image img {
+  width: 150px;
+}
