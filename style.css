@@ -249,4 +249,8 @@ section .main_btn:hover i {
 .menu .menu_box .menu_card .menu_image img {
   width: 100%;
   height: 100%;
-}
+  object-fit: cover;
+  object-position: center;
+  }
+
+  .menu .menu_box .menu_card .menu_image:hover img
