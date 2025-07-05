@@ -251,6 +251,9 @@ section .main_btn:hover i {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  }
+  transition: 0.3s;
+}
 
-  .menu .menu_box .menu_card .menu_image:hover img
+.menu .menu_box .menu_card .menu_image:hover img {
+  transform: scale(1.1);
+}
