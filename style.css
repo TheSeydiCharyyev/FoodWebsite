@@ -318,5 +318,31 @@ section .main_btn:hover i {
 .menu .menu_box .menu_card .menu_info .menu_icon {
   color: #fac031;
   text-align: center;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  background: #000;
+  padding: 8px 10px;
+  margin: 0 80px;
+  transition: 0.3s;
+}
+
+/* Gallery */
+
+.gallery {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.gallery h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
