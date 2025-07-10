@@ -386,3 +386,14 @@ section .main_btn:hover i {
 .gallery .gallery_image_box .gallery_image:hover img {
   opacity: 0.4;
 }
+
+.gallery .gallery_image_box .gallery_image h3 {
+  position: absolute;
+  font-size: 35px;
+  margin-bottom: 130px;
+  color: #fac031;
+  font-family: polo;
+  z-index: 5;
+  opacity: 1;
+  transition: 0.3s;
+}
