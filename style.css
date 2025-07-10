@@ -397,3 +397,6 @@ section .main_btn:hover i {
   opacity: 1;
   transition: 0.3s;
 }
+
+.gallery .gallery_image_box .gallery_image:hover h3 {
+}
