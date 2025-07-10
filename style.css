@@ -380,4 +380,9 @@ section .main_btn:hover i {
 
 .gallery .gallery_image_box .gallery_image img {
   width: 100%;
+  transition: 0.3s;
+}
+
+.gallery .gallery_image_box .gallery_image:hover img {
+  opacity: 0.4;
 }
