@@ -401,3 +401,9 @@ section .main_btn:hover i {
 .gallery .gallery_image_box .gallery_image:hover h3 {
   opacity: 1;
 }
+
+.gallery .gallery_image_box .gallery_image p {
+  position: absolute;
+  width: 400px;
+  margin-top: 30px;
+}
