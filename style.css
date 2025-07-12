@@ -406,4 +406,24 @@ section .main_btn:hover i {
   position: absolute;
   width: 400px;
   margin-top: 30px;
+  text-align: center;
+  color: white;
+  line-height: 22px;
+  opacity: 0;
+  z-index: 5;
+  transition: 0.3s;
+}
+
+.gallery .gallery_image_box .gallery_image:hover p {
+  opacity: 1;
+}
+
+.gallery .gallery_image_box .gallery_image .gallery_btn {
+  position: absolute;
+  margin-top: 180px;
+  color: #000;
+  background: #fac031;
+  padding: 7px 25px;
+  text-decoration: none;
+  opacity: 1;
 }
