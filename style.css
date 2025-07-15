@@ -515,3 +515,25 @@ section .main_btn:hover i {
 .review .review_box .review_card:hover .review_text .name {
   transform: translateY(-50px);
 }
+
+.review .review_box .review_card .review_text .review_icon {
+  color: #fac031;
+  transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_icon {
+  transform: translateY(-30px);
+}
+
+.review .review_box .review_card .review_text .review_social i {
+  margin: 5px 1px;
+  font-size: 15px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_social i {
+  opacity: 1;
+  transform: translateY(-8px);
+}
