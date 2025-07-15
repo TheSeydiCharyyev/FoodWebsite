@@ -437,3 +437,22 @@ section .main_btn:hover i {
 }
 
 /* Review */
+
+.review {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.review h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review h1 span {
+  margin-left: 15px;
+  color: #fac031;
+  font-family: mv boli;
+}
