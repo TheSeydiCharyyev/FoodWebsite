@@ -640,3 +640,15 @@ section .main_btn:hover i {
   background-size: cover;
   background-position: center;
 }
+
+.team h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.team .team_box .profile img {
+  width: 150px;
+}
