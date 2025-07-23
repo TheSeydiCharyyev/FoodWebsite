@@ -737,3 +737,7 @@ section .main_btn:hover i {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.team .team_box .profile .info .team_icon i:hover {
+  color: #fac031;
+}
